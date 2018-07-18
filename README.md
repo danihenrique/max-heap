@@ -1,12 +1,12 @@
 # @datastrucures-js/max-heap
 
-[![build:?](https://travis-ci.org/eyas-ranjous/datatructures-js/max-heap.svg?branch=master)](https://travis-ci.org/eyas-ranjous/datatructures-js/max-heap) 
+[![build:?](https://travis-ci.org/datatructures-js/max-heap.svg?branch=master)](https://travis-ci.org/datatructures-js/max-heap) 
 [![npm](https://img.shields.io/npm/v/@datastructures-js/max-heap.svg)](https://www.npmjs.com/package/@datastructures-js/max-heap)
-[![npm](https://img.shields.io/npm/dm/@datastructures-js/max-heap.svg)](https://www.npmjs.com/packages/@datastructures-js/max-heap) [![npm](https://img.shields.io/badge/node-%3E=%206.0-blue.svg)](https://www.npmjs.com/package/@datastructures-js/max-heap)
+[![npm](https://img.shields.io/npm/dm/@datastructures-js/max-heap.svg)](https://www.npmjs.com/package/@datastructures-js/max-heap) [![npm](https://img.shields.io/badge/node-%3E=%206.0-blue.svg)](https://www.npmjs.com/package/@datastructures-js/max-heap)
 
 elements data type: **number**, **string**.
 
-<img width="420" alt="ll" src="https://user-images.githubusercontent.com/6517308/36940962-844a7fe8-1f15-11e8-8165-6fd62ba1914f.png">
+<img width="420" alt="Max Heap" src="https://user-images.githubusercontent.com/6517308/36940962-844a7fe8-1f15-11e8-8165-6fd62ba1914f.png">
 
 ## Usage
 ```js
