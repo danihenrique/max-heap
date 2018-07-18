@@ -1,6 +1,6 @@
 {
   "name": "@datastructures-js/max-heap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "max heap implementation in javascript",
   "main": "index.js",
   "scripts": {
