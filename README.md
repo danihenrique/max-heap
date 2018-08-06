@@ -18,12 +18,12 @@ const maxHeap = maxHeapFn();
 
 **.insert(value)** 
 
-inserts a value into the heap.
+inserts a key/value node into the heap. default value is null.
 ```javascript
 maxHeap.insert(50);
 maxHeap.insert(80);
 maxHeap.insert(30);
-maxHeap.insert(90);
+maxHeap.insert(90, { name: 'john' });
 maxHeap.insert(60);
 maxHeap.insert(40);
 maxHeap.insert(20);
@@ -38,17 +38,18 @@ console.log(maxHeap.size()); // 7
 
 **.max()** 
 
-peeks on the max value in the heap
+peeks on the max key node in the heap
 ```javascript
-console.log(maxHeap.max()); // 90
+console.log(maxHeap.max().getKey()); // 90
+console.log(maxHeap.max().getValue()); // { name: 'john' }
 ```
 
 **.extractMax()** 
 
-retrieves and remove the max value from the heap
+retrieves and remove the max key node from the heap
 ```javascript
-console.log(maxHeap.extractMax()); // 90
-console.log(maxHeap.max()); // 80
+console.log(maxHeap.extractMax().getKey()); // 90
+console.log(maxHeap.max().getKey()); // 80
 ```
 
 **.clear()** 
